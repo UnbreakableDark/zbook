@@ -1,0 +1,47 @@
+/* 这是 css 的入口文件 */
+
+* {
+  /*所有元素*/
+  padding: 0%;
+  margin: 0%;
+}
+
+h2 {
+  margin: 10px;
+  color: gold;
+  text-align: center;
+}
+
+.zbook-header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px 30px;
+  gap: 30px; /*  flex布局中 使用  gap来控制  各元素之间的间隔*/
+}
+
+.zbook0-header img {
+  width: 20px;
+  height: 20px;
+}
+
+.zbook0-header a {
+  color: limegreen;
+}
+
+.zbook0-header .zbook-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.zbook-footer {
+  color: white; /*文字颜色*/
+  display: flex; /*flex布局  列模式，居中*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue; /*背景色*/
+}
