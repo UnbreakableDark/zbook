@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML常用标签</title>
+    <style>
+        * {
+            text-align: center;
+            margin: auto;
+        }
+        td {
+            padding: 5px;
+            border: 2px solid red;
+            border-collapse:collapse;
+        }
+        table,tr,th {
+            border: 2px solid red;
+            border-collapse:collapse;
+        }
+    </style>
+    <!--注释标签-->
+</head>
+
+<body>
+    
+    <table>
+        <caption>基础标签</caption>
+        <tr>
+            <th>标签</th>
+            <td>&lt; h1-h6 &gt;</td>
+            <td>&lt; p &gt;</td>
+            <td>&lt; a href="url" &gt;</td>
+            <td>&lt; img src="url" &gt;</td>
+            <td>&lt; div &gt;</td>
+            <td>&lt; hr/ &gt;</td>
+            <td>&lt; br/ &gt;</td>
+        </tr>
+        <tr>
+            <th>解释</th>
+            <td>标题标签</td>
+            <td>段落标签</td>
+            <td>超链接</td>
+            <td>图片标签</td>
+            <td>division 分区</td>
+            <td>水平线</td>
+            <td>换行</td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <caption>文本标签</caption>
+        <tr>
+            <th>标签名</th>
+            <td>strong,b </td>
+            <td>i em cite </td>
+            <td>sup </td>
+            <td>sub </td>
+            <td>s </td>
+            <td>u </td>
+            <td>big </td>
+            <td>small </td>
+        </tr>
+        <tr>
+            <th>含义</th>
+            <td>粗体标签</td>
+            <td>斜体标签</td>
+            <td>上标标签</td>
+            <td>下标标签</td>
+            <td>中划线标签</td>
+            <td>下划线标签</td>
+            <td>大字号标签</td>
+            <td>小字号标签</td>
+        </tr>
+        <tr>
+            <th>效果</th>
+            <td><strong>strong</strong>,<b>b</b></td>
+            <td><i>i</i>,<em>em</em>,<cite>cite</cite></td>
+            <td><sup>sup</sup>上标</td>
+            <td><sub>sub</sub>下标</td>
+            <td><s>删除线</s></td>
+            <td><u>下划线</u></td>
+            <td><big>大字体</big></td>
+            <td><small>小字体</small></td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <caption>列表</caption>
+        <tr>
+            <th>有序列表</th>
+            <td>标签:ol,li</td>
+            <td>
+                <ol>
+                    <li>第一项</li>
+                    <li>第二项</li>
+                    <li>第三项</li>
+                </ol>
+            </td>
+            <td>
+                ol(order list) 有序列表 <br/>
+                li(list item) 列表项
+            </td>
+        </tr>
+        <tr>
+            <th>无序列表</th>
+            <td>标签:ul,li</td>
+            <td>
+                <ul>
+                    <li>one</li>
+                    <li>two</li>
+                    <li>three</li>
+                </ul>
+            </td>
+            <td>
+                ul(unorder list) 无序列表 <br/>
+                li(list item) 列表项
+            </td>
+        </tr>
+        <tr>
+            <th>定义列表</th>
+            <td>标签:dl,dt,dd</td>
+            <td>
+                <dl>
+                    <dt>one</dt>
+                    <dd>one的描述</dd>
+                </dl>
+            </td>
+            <td>
+                dl(definition list)<br/>
+                dt(definition term)<br/>
+                dd(definition description)
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <caption>超链接属性详解</caption>
+        <tr>
+            <th>属性名</th>
+            <th>属性值</th>
+            <th>解析</th>
+        </tr>
+        <tr>
+            <td>href</td>
+            <td>url<br/>id</td>
+            <td>超链接的地址<br/>
+                当url=id时 为页面内的锚点链接,也可以url=url#id其他页面的锚点链接
+            </td>
+        </tr>
+            <td>target</td>
+            <td>
+                <br/>
+                _self <br/>
+                _blank <br/>
+                _parent <br/>
+                _top <br/>
+            </td>
+            <td>
+                定义超链接打开窗口的方式<br/>
+                _self 在原来的窗口打开链接（默认值）<br/>
+                _blank 在新窗口打开<br/>
+                _parent 在父窗口打开<br/>
+                _top 在顶层窗口打开超链接<br/>
+            </td>
+        </tr>
+        <tr>
+            <td>超链接伪类(CSS内容)</td>
+            <td>
+                <br/>
+                a:link<br/>
+                a:visited<br/>
+                a:hover<br/>
+                a:active<br/>
+            </td>
+            <td>
+                定义四个伪类,必须按照link,visited,hover,active的顺序 不能改变<br/>
+                link 定义a元素未访问时的样式<br/>
+                visited 定义a元素访问后的样式<br/>
+                hover 定义鼠标经过a元素时的样式<br/>
+                active 定义鼠标单机激活时的样式<br/>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <p>iframe内嵌框架src='url'</p>
+    <iframe src="form.html" frameborder="2px" width="96%"></iframe>
+</body>
+</html>

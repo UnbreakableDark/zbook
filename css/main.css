@@ -20,16 +20,16 @@ h2 {
   gap: 30px; /*  flex布局中 使用  gap来控制  各元素之间的间隔*/
 }
 
-.zbook0-header img {
+.zbook-header img {
   width: 20px;
   height: 20px;
 }
 
-.zbook0-header a {
+.zbook-header a {
   color: limegreen;
 }
 
-.zbook0-header .zbook-row {
+.zbook-header .zbook-row {
   display: flex;
   flex-direction: row;
   align-items: center;
