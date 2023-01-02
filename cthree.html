@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cthree.css">
+    <title>CSS3</title>
+</head>
+<body>
+    <table>
+        <caption>CSS引入方式</caption>
+        <tr>
+            <td>外部样式表</td>
+            <td>&lt; link rel="stylesheet" type="text/CSS" href="URL" &gt;</td>
+        </tr>
+        <tr>
+            <td>内部样式表</td>
+            <td>在&lt; style &gt;标签内写样式</td>
+        </tr>
+        <tr>
+            <td>行内样式表</td>
+            <td>html元素的style属性</td>
+        </tr>
+        <tr>
+            <td>@import</td>
+            <td>使用的少 因为先加载HTML</td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <caption>CSS选择器</caption>
+        <tr>
+            <th>选择器</th>
+            <th>代码</th>
+            <th>功能</th>
+        </tr>
+        <tr>
+            <td>id选择器</td>
+            <td>#id {}</td>
+            <td>id具有唯一性,在一个页面一个id只能出现一次,常配合js</td>
+        </tr>
+        <tr>
+            <td>class选择器</td>
+            <td>.class {}</td>
+            <td>不是唯一的,可以使用class选择器定义相同的CSS样式</td>
+        </tr>
+        <tr>
+            <td>元素选择器</td>
+            <td>element {}</td>
+            <td>可以控制整个元素的样式</td>
+        </tr>
+        <tr>
+            <td>后代选择器</td>
+            <td>div element {}</td>
+            <td>选择某种元素内部中某一种元素的所有元素<br/>父元素与子元素用空格分开</td>
+        </tr>
+        <tr>
+            <td>群组选择器</td>
+            <td>div,element {}</td>
+            <td>同时对几个选择器进行相同的操作<br/>两个选择器之间必须要用英文逗号</td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <caption>盒子模型</caption>
+        <tr>
+            <th>代码</th>
+            <th>名称</th>
+            <td>作用</td>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td>外边距</td>
+            <td>用于定义当前元素与其他元素之间的距离</td>
+        </tr>
+        <tr>
+            <td>border</td>
+            <td>边框</td>
+            <td>用于定义元素的边框</td>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td>内边距</td>
+            <td>用于定义内容和边框之间的距离</td>
+        </tr>
+        <tr>
+            <td>content</td>
+            <td>内容</td>
+            <td>可能是文本或者图片等</td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <caption>定位布局</caption>
+        <tr>
+            <th>代码</th>
+            <th>名称</th>
+            <td>作用</td>
+        </tr>
+        <tr>
+            <td>position</td>
+            <td>定位使用的属性</td>
+            <td>top,bottom,left,right<br/>使用上面四个属性来定位上下左右  单位px</td>
+        </tr>
+        <tr>
+            <td>static</td>
+            <td>静态定位(默认)</td>
+            <td>遵从正常文档流的定位</td>
+        </tr>
+        <tr>
+            <td>fixed</td>
+            <td>固定定位</td>
+            <td>被固定的元素不会随着滚动条的拖动而改变位置</td>
+        </tr>
+        <tr>
+            <td>relative</td>
+            <td>相对定位</td>
+            <td>相对于正常文档流的位置</td>
+        </tr>
+        <tr>
+            <td>absolute</td>
+            <td>绝对定位</td>
+            <td>完全脱离文档流,绝对定位是对于浏览器而言的</td>
+        </tr>
+        <tr>
+            <td>sticky</td>
+            <td>粘性定位</td>
+            <td>基于用户的滚动位置来定位</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
