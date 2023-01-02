@@ -1,3 +1,3 @@
 # zbook
-learning use 
+learning use ,
 perhaps  study notes and sources   
