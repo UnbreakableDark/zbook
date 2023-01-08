@@ -1,0 +1,9 @@
+p,h2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ul{
+    display: grid;
+    justify-content: center;
+}

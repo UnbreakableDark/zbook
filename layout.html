@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layout.css">
+    <title>CSS3布局</title>
+</head>
+<body>
+    <h2>flex布局</h2>
+    <p>
+        flex是一维布局方式,按行或按列展开布局<br/>
+        开启flex布局:   display:flex
+        默认行模式:水平方向为主轴,垂直方向为交叉轴   子元素从左上角开始依次排列<br/>
+        主轴布局 
+        justify-content:center/flex-end/space-evently(平分空间)/space-between(两端对齐)<br/>
+        交叉轴布局  align-items  center/flex-end/   <br/>
+        列模式下:垂直方向上为主轴,水平方向上为交叉轴
+        flex-direction:column  <br/>
+
+        非固定尺寸的子元素可以通过设置Flex属性来调整空间的占比,例如
+        Flex:1    Flex:2  Flex:1 ,空间就会分成1：2：1  <br/>
+    </p>
+    <ul>
+        <li>justify-content<br/></li>
+        <li>align-items<br/></li>
+    </ul>
+
+    <h2>grid布局</h2>
+    <p>
+        grid布局为二维布局方式,可以同时控制行和列的排布
+        <br/>grid由水平线和垂直线构成,两条水平线之间的区域为行轨道,两天垂直线之间的区域为列轨道
+        <br/>开启grid布局  display:grid
+        <br/>可以使用  grid-template-columns:px/fr  可以设置列的宽度和数量  fr：代表grid剩余空间
+        <br/>列间距  column-gap:px  
+        <br/>行间距  row-gap:px，也可以使用gap属性统一设置  
+        <br/>水平方向上对齐  justify-items:center/end    
+        <br/>垂直方向上对齐  align-items:center/end      
+        <br/>如果轨道不占满空间，还可以对轨道进行对齐：
+        <br/>行轨道对齐    justify-content:center/end/space-between
+        <br/>列轨道对齐    align-content:center/end
+    </p>
+</body>
+</html>
