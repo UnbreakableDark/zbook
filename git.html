@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub的坑</title>
+</head>
+<body>
+    <dl>
+        <dt>failed to push some refs to</dt>
+        <dd>在git上对它进行了在线修改,但是没有对本地库进行同步</dd>
+        <dd>解决方法</dd>
+        <dd>1.同步  git pull  --rebase origin master</dd>
+        <dd>--rebase的作用是取消本地库中刚刚提交的commit,并把他们接到更新后的版本库中。</dd>
+    </dl>
+</body>
+</html>
